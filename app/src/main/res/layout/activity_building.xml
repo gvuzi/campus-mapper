@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/building_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".BuildingActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        app:srcCompat="@drawable/travel_app_or_website_logo__2_" />
+
+    <TextView
+        android:id="@+id/building_info_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/building_info"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/building_name_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_info"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/building_code_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/code_info"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/couse_info_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/course_info"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</LinearLayout>
